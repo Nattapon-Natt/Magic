@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav {
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#resultsArea {
+    padding: 1.2rem;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #df0a0a;
+    line-height: 1.8; /*ระยะห่างบรรทัด */
+}
+#resultsArea div {
+    margin-bottom: 20px; /* ระยะห่างระว่างเเต่ละบล็อค*/
+    border: 5px solid #517153; 
+    border-radius: 1px; 
+    /* text-decoration: underline; */
+}

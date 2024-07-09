@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <a href="#">MAGICIAN NUMBER</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">ทำนายเบอร์โทร</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>ทำนายเบอร์โทรศัพท์</h1>
+
+      <form id="numberForm">
+        <label for="phoneNumber">เบอร์โทร:</label>
+        <input
+          type="text"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="ใส่เบอร์โทร"
+        />
+        <button type="button" id="submit">Submit</button>
+      </form>
+
+      <p id="displayArea"></p>
+      <p id="pairsArea"></p>
+      <div id="resultsArea"></div>
+      <script src="result.js"></script>
+      
+    </div>
+  </body>
+</html>
